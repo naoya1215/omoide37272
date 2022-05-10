@@ -41,25 +41,25 @@ https://omoide37272.herokuapp.com/
 https://docs.google.com/spreadsheets/d/1oWrFkQ2t5CnrStiwzMJXaQqB4T3HWUTJN3L4jjfEVOk/edit#gid=982722306
 
 ## 実装した機能について画像やgitおよびその説明
-
+※今後記述
 
 ## 実装予定の機能
-
+※今後記述
 
 ## データベース設計
-
+test.dio参照
 
 ## 画面遷移図
-
+test.dio参照
 
 ## 開発環境
 ・Ruby/Ruby on Rails/MySQL/Github/AWS/Visual Studio Code
 
 ## ローカルでの動作方法
-
+※今後記述
 
 ## 工夫したポイント
-
+※今後記述
 
 ## Tabel名
 
