@@ -1,24 +1,93 @@
-# README
+## アプリケーション名
+おもいで
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## アプリケーション概要
+日本一周の思い出を残すアプリケーション
 
-Things you may want to cover:
+## URL
+https://omoide37272.herokuapp.com/
 
-* Ruby version
+## テスト用アカウント
+・Basic認証パスワード: admin
+・Basic認証ID: 2222
+・メールアドレス：hoge@hoge
+・パスワード：0836Yn
 
-* System dependencies
+## 利用方法
+【トップ画面】
+・47都道府県の一覧とこれまで投稿した画像が表示されています。
+・投稿記録のある都道府県は、黒色の文字表記になります。
+・投稿記録がない都道府県は、赤色の文字表記になります。
+・例えば、長野県をクリックすると長野で撮影した写真を表示してくれます。
+・もしも写真が存在しない場合は、「ここにはまだ行っていません」と表示されます。
 
-* Configuration
+【ログインしていない状態】
+・画像の投稿はできません
+・投稿された画像を閲覧することは出来ます。
 
-* Database creation
+【ログインしている状態】
+・画像の投稿をすることが出来ます。
+・自身が投稿した内容であれば、削除と編集を行うことが出来ます。
+・投稿に対してコメントをすることが出来ます。
+・自身が投稿したコメントであれば削除と編集を行うことが出来ます。
 
-* Database initialization
+## アプリケーションを作成した背景
+コロナ禍で国内旅行ですら、中々できない状況が続いている。
+予断は許されませんが、行動規制が緩和されているのが現状としてあります。
+流行する少し前から旅行の魅力に気づき、家族で日本全国を訪れたい思ってました。
+コロナ禍で第一子が産まれ、県内に出れていない子供と一緒に旅行をし思い出を残したいという気持ちからこのアプリケーションを作成してみたいと思いました。
 
-* How to run the test suite
+## 洗い出した要件
+https://docs.google.com/spreadsheets/d/1oWrFkQ2t5CnrStiwzMJXaQqB4T3HWUTJN3L4jjfEVOk/edit#gid=982722306
 
-* Services (job queues, cache servers, search engines, etc.)
+## 実装した機能について画像やgitおよびその説明
 
-* Deployment instructions
 
-* ...
+## 実装予定の機能
+
+
+## データベース設計
+
+
+## 画面遷移図
+
+
+## 開発環境
+・Ruby/Ruby on Rails/MySQL/Github/AWS/Visual Studio Code
+
+## ローカルでの動作方法
+
+
+## 工夫したポイント
+
+
+## Tabel名
+
+|Column|Type|Options|
+|------|----|-------|
+（ここに追記していく）
+
+
+### Association
+（ここに追記していく）
+
+## Tabel名
+
+|Column|Type|Options|
+|------|----|-------|
+（ここに追記していく）
+
+
+### Association
+（ここに追記していく）
+
+## Tabel名
+
+|Column|Type|Options|
+|------|----|-------|
+（ここに追記していく）
+
+
+### Association
+（ここに追記していく）
+
