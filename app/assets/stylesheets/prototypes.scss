@@ -39,6 +39,39 @@ a:hover {
   visibility: hidden;
 }
 
+header{
+  background-color: rgb(120, 100, 100);
+  height: 80px;
+  color:white;
+  margin-bottom: 40px;
+  display: flex;
+}
+
+.title{
+  font-size: 30px;
+  margin: 20px 0 0 20px;
+  padding: center;
+}
+
+.user{
+  display: flex;
+  padding: 25px 0 0 1000px;
+}
+
+.item-contents{
+  margin: 25px 0 25px 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.item-img {
+  display: inline;
+  width: 33vh;
+  height: 33vh;
+  margin: 10px 0 0 10px;
+}
+
 /******* 地図成形 *******/
 #japan-map div div.area div {
 	border: 1px #ffffff solid;

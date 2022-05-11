@@ -8,7 +8,15 @@
 </head>
 
 <body>
-
+<header>
+  <h2 class="title">おもいで</h2>
+  <div class="user">
+    <%# ログアウト中は新規登録にする %>
+    <p>投稿する　　　</p>
+    <%# ログアウト中はログインにする %>
+    <p>ログアウト　　　</p>
+  </div>
+</header>
 <div id="japan-map" class="clearfix">
 
 <div id="hokkaido-touhoku" class="clearfix">
@@ -290,6 +298,16 @@
 
 </div> <!-- japan-map -->
 
+<div class="item-contents">
+<%= image_tag "https://tech-master.s3.amazonaws.com/uploads/curriculums/images/Rails1-4/sample.jpg", class: "item-img" %>
+<%= image_tag "https://tech-master.s3.amazonaws.com/uploads/curriculums/images/Rails1-4/sample.jpg", class: "item-img" %>
+<%= image_tag "https://tech-master.s3.amazonaws.com/uploads/curriculums/images/Rails1-4/sample.jpg", class: "item-img" %>
+<%= image_tag "https://tech-master.s3.amazonaws.com/uploads/curriculums/images/Rails1-4/sample.jpg", class: "item-img" %>
+<br>
+<%= image_tag "https://tech-master.s3.amazonaws.com/uploads/curriculums/images/Rails1-4/sample.jpg", class: "item-img" %>
+<%= image_tag "https://tech-master.s3.amazonaws.com/uploads/curriculums/images/Rails1-4/sample.jpg", class: "item-img" %>
+<%= image_tag "https://tech-master.s3.amazonaws.com/uploads/curriculums/images/Rails1-4/sample.jpg", class: "item-img" %>
+</div>
 </body>
 </html>
 
