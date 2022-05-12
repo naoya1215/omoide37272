@@ -22,7 +22,7 @@ https://omoide37272.herokuapp.com/
 ・もしも写真が存在しない場合は、「ここにはまだ行っていません」と表示されます。
 
 【ログインしていない状態】
-・画像の投稿はできません
+・画像の投稿はできません。
 ・投稿された画像を閲覧することは出来ます。
 
 【ログインしている状態】
@@ -61,33 +61,33 @@ test.dio参照
 ## 工夫したポイント
 ※今後記述
 
-## Tabel名
-
-|Column|Type|Options|
-|------|----|-------|
-（ここに追記していく）
-
-
+## usersテーブル
+| Column             | Type   | Options                |
+| ------------------ | ------ | -----------            |
+| email              | string | null: false,ユニーク制約 |
+| encrypted_password | string | null: false            |
+| nickname           | string | null: false            |
 ### Association
-（ここに追記していく）
+has_many :prototypes
+has_many :comments
 
-## Tabel名
-
-|Column|Type|Options|
-|------|----|-------|
-（ここに追記していく）
-
-
+## prototypes テーブル
+| Column        | Type      | Options     |
+| ------        | ------    | ----------- |
+| title         | string    | null: false |
+| prefecture_id | integer   | null: false |
+| user          | reference | null: false, 外部キー|
 ### Association
-（ここに追記していく）
+belongs_to :user
+has_many :comment 
 
-## Tabel名
-
-|Column|Type|Options|
-|------|----|-------|
-（ここに追記していく）
-
-
+## comments テーブル
+| Column       | Type      | Options     |
+| ------       | ------    | ----------- |
+| content      | text      | null: false |
+| prototype    | reference | null: false, 外部キー|
+| user         | reference | null: false, 外部キー|
 ### Association
-（ここに追記していく）
+belongs_to :user
+belongs_to :prototype
 
