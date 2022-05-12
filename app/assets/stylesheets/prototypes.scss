@@ -58,6 +58,18 @@ header{
   padding: 25px 0 0 1000px;
 }
 
+.post-list{
+	background-color: rgb(240, 237, 237);
+}
+
+.second-title{
+	color: rgb(83, 81, 81);
+	margin: 40px 0 0 50px;
+	padding-top: 20px;
+	width: 70px;
+	border-bottom: solid 1px rgb(83, 81, 81);
+}
+
 .item-contents{
   margin: 25px 0 25px 0;
   display: flex;
@@ -66,11 +78,11 @@ header{
 }
 
 .item-img {
-  display: inline;
   width: 33vh;
   height: 33vh;
-  margin: 10px 0 0 10px;
+  margin: 10px 0 20px 10px;
 }
+
 
 /******* 地図成形 *******/
 #japan-map div div.area div {
@@ -575,3 +587,4 @@ header{
 
 
 } /* レスポンシブ max-500px */
+
