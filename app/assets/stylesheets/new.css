@@ -1,0 +1,22 @@
+.contents{
+  width:auto;
+  text-align: center;
+  display: block;
+
+  /* height:1000px; */
+}
+.contents h3{
+  padding:250px 0 30px 0;
+}
+
+.ti{
+  margin-bottom: 10px;
+}
+
+.titi{
+  width:300px
+}
+
+.im{
+  margin-bottom: 10px;
+}

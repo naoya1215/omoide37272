@@ -71,8 +71,8 @@ header{
 }
 
 .item-contents{
-  margin: 25px 0 25px 0;
   display: flex;
+	margin: 25px 0 25px 0;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
@@ -82,7 +82,6 @@ header{
   height: 33vh;
   margin: 10px 0 20px 10px;
 }
-
 
 /******* 地図成形 *******/
 #japan-map div div.area div {
