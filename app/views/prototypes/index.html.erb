@@ -9,10 +9,12 @@
 
 <body>
 <header>
-  <h2 class="title">おもいで</h2>
+  <h2 class="title">おも<br>いで</h2>
   <div class="user">
     <%# ログアウト中は新規登録にする %>
-    <p>投稿する　　　</p>
+		<%= link_to(new_prototype_path, class: "post-button") do%>
+    	<p>投稿する　　　</p>
+		<% end %>
     <%# ログアウト中はログインにする %>
     <p>ログアウト　　　</p>
   </div>
