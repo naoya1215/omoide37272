@@ -49,13 +49,13 @@ header{
 
 .title{
   font-size: 30px;
-  margin: 20px 0 0 20px;
+  margin: 20px 0 0 80px;
   padding: center;
 }
 
 .user{
   display: flex;
-  padding: 25px 0 0 1000px;
+  padding: 25px 0 0 800px;
 }
 
 .post-list{
@@ -71,8 +71,8 @@ header{
 }
 
 .item-contents{
-  margin: 25px 0 25px 0;
   display: flex;
+	margin: 25px 0 25px 0;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
@@ -83,6 +83,10 @@ header{
   margin: 10px 0 20px 10px;
 }
 
+.post-button{
+  text-decoration: none;
+  color: white;
+}
 
 /******* 地図成形 *******/
 #japan-map div div.area div {
