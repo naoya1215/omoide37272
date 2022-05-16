@@ -2,9 +2,10 @@
   <h3>投稿ページ</h3>
     <%= form_with(model: @prototype, local: true) do |form| %>
       <div class="container">
-        <div class="ti"><%= form.text_field :title, placeholder: "Title" %></div>
-        <div class="im"><%= form.text_field :image, placeholder: "Image Url" %></div>
-        <%= form.submit "投稿する" %>
+        <div class="ti"><%= form.text_field :title, placeholder: "title" %></div>
+        <%= form.collection_select(:prefecture_id, Prefecture.all, :id, :name, {}, {class:"prototype-select"}) %>
+        <div class="im"><%= form.file_field :image, placeholder: "image url" %></div>
+        <div class="post"><%= form.submit "投稿する" %></div>
       </div>
     <% end %>
 </div>

@@ -8,7 +8,22 @@ class PrototypesController < ApplicationController
     @prototype = Prototype.new
   end
 
+  def create
+    @prototype = Prototype.new(prototype_params)
+    if @prototype.save
+      redirect_to root_path
+    else
+      render :new
+    end
+  end
+
   def show
   end
-  
+
+  private
+
+  def prototype_params
+    params.require(:prototype).permit(:title, :image, :prefecture_id)
+  end
+
 end
