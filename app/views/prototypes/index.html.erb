@@ -126,11 +126,12 @@
 				<p>福井</p>
 			</div>
 		</a>
-		<a href="#">
-			<div id="nagano">
-				<p>長野</p>
-			</div>
-		</a>
+
+		<%# 長野県を代表で実装中 %>
+		<div id="nagano">
+			<%= link_to "長野", prototype_path(@prototypes), method: :get, class: :color%>
+		</div>
+		<%# //長野県を代表で実装中 %>
 		<a href="#">
 			<div id="gifu">
 				<p>岐阜</p>

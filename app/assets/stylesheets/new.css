@@ -1,23 +1,23 @@
 .contents{
-  width:auto;
+  width: auto;
   display: block;
 }
-
+  
 .contents h3{
-  padding:250px 0 30px 0;
+  padding: 250px 0 30px 0;
   text-align: center;
 }
 
 .ti{
-  margin:0 0 10px 550px;
+  margin: 0 0 10px 550px;
 }
 
 .prototype-select{
-  margin:0 0 10px 550px;
+  margin: 0 0 10px 550px;
 }
 
 .im{
-  margin:0 0 30px 550px;
+  margin: 0 0 30px 550px;
 }
 
 .post{

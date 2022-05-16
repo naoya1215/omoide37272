@@ -272,12 +272,21 @@ header{
 	left: 0px;
 	z-index: 2;
 }
+
+// 長野県を代表に実装中
 #nagano {
 	width: 67px;
 	height: 85px;
 	left: 118px;
-	top: 42px
+	top: 42px;
+	color: black;
 }
+// ちょっと無理やり色を付ける
+.color{
+	color:white;
+}
+
+
 #yamanashi {
 	width: 67px;
 	height: 42px;

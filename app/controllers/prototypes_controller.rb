@@ -18,6 +18,7 @@ class PrototypesController < ApplicationController
   end
 
   def show
+    @prototypes = Prototype.all
   end
 
   private
