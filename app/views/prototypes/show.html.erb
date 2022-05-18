@@ -1,5 +1,6 @@
 <div class="post-list">
 	<h3 class="second-title">投稿一覧</h3>
+	<%= link_to "戻る", root_path, class: :return%>
 	<div class="item-contents">
 		<% @prototypes.each do |prototype|%>
 			<%= image_tag prototype.image, class: "item-img" if prototype.image.attached?%>
