@@ -18,13 +18,17 @@ class PrototypesController < ApplicationController
   end
 
   def show
-    @prototypes = Prototype.all
+    @prototypes = Prototype.where(prefecture_id: params[:prefecture_id])
   end
 
   private
 
   def prototype_params
     params.require(:prototype).permit(:title, :image, :prefecture_id)
+  end
+
+  def prefecture_params
+    params.require(:prototype).permit(:prefecture_id)
   end
 
 end

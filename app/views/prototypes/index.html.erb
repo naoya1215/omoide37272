@@ -127,16 +127,18 @@
 			</div>
 		</a>
 
-		<%# 長野県を代表で実装中 %>
+		<%# 長野県 %>
 		<div id="nagano">
-			<%= link_to "長野", prototype_path(@prototypes), method: :get, class: :color%>
+			<%= link_to "長野", prototype_path(@prototypes, prefecture_id: 21), method: :get, class: :color%>
 		</div>
-		<%# //長野県を代表で実装中 %>
-		<a href="#">
-			<div id="gifu">
-				<p>岐阜</p>
-			</div>
-		</a>
+		<%# //長野県 %>
+
+		<%# 岐阜県 %>
+		<div id="gifu">
+			<%= link_to "岐阜", prototype_path(@prototypes, prefecture_id: 22), method: :get, class: :color%>
+		</div>
+		<%# //岐阜県 %>
+
 		<a href="#">
 			<div id="yamanashi">
 				<p>山梨</p>
@@ -305,7 +307,7 @@
 	<h3 class="second-title">投稿一覧</h3>
 	<div class="item-contents">
 		<% @prototypes.each do |prototype|%>
-			<%= image_tag prototype.image, class: "prototype-img" if prototype.image.attached?%>
+			<%= image_tag prototype.image, class: "item-img" if prototype.image.attached?%>
 		<% end %>
 	</div>
 </div>
