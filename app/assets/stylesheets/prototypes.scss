@@ -70,6 +70,14 @@ header{
 	border-bottom: solid 1px rgb(83, 81, 81);
 }
 
+.return{
+	color: rgb(83, 81, 81);
+	display: block;
+	text-align: center;
+	margin-top: 40px;
+	border: solid 1px rgb(83, 81, 81);
+}
+
 .item-contents{
   display: flex;
 	margin: 25px 0 25px 0;
@@ -87,6 +95,8 @@ header{
   text-decoration: none;
   color: white;
 }
+
+
 
 /******* 地図成形 *******/
 #japan-map div div.area div {
@@ -272,12 +282,21 @@ header{
 	left: 0px;
 	z-index: 2;
 }
+
+// 長野県を代表に実装中
 #nagano {
 	width: 67px;
 	height: 85px;
 	left: 118px;
-	top: 42px
+	top: 42px;
+	color: black;
 }
+// ちょっと無理やり色を付ける
+.color{
+	color:white;
+}
+
+
 #yamanashi {
 	width: 67px;
 	height: 42px;

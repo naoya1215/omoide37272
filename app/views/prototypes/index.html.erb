@@ -24,277 +24,284 @@
 <div id="hokkaido-touhoku" class="clearfix">
 	<p class="area-title">北海道・東北</p>
 	<div class="area">
-		<a href="#">
-        	<div id="hokkaido">
-        		<p>北海道</p>
-          	</div>
-		</a>
-		<a href="#">
-			<div id="aomori">
-				<p>青森</p>
-			</div>
-		</a>
-		<a href="#">
-			<div id="akita">
-				<p>秋田</p>
-			</div>
-		</a>
-		<a href="#">
-			<div id="iwate">
-				<p>岩手</p>
-			</div>
-		</a>
-		<a href="#">
-			<div id="yamagata">
-				<p>山形</p>
-			</div>
-		</a>
-		<a href="#">
-			<div id="miyagi">
-				<p>宮城</p>
-			</div>
-		</a>
-		<a href="#">
-			<div id="fukushima">
-				<p>福島</p>
-			</div>
-		</a>
+
+		<%# 北海道 %>
+		<div id="hokkaido">
+			<%= link_to "北海道", prototype_path(@prototypes, prefecture_id: 2), method: :get, class: :color%>
+		</div>
+
+		<%# 青森県 %>
+		<div id="aomori">
+			<%= link_to "青森", prototype_path(@prototypes, prefecture_id: 3), method: :get, class: :color%>
+		</div>
+		
+		<%# 秋田 %>
+		<div id="akita">
+			<%= link_to "秋田", prototype_path(@prototypes, prefecture_id: 6), method: :get, class: :color%>
+		</div>
+
+		<%# 岩手 %>
+		<div id="iwate">
+			<%= link_to "岩手", prototype_path(@prototypes, prefecture_id: 4), method: :get, class: :color%>
+		</div>
+
+		<%# 山形 %>
+		<div id="yamagata">
+			<%= link_to "山形", prototype_path(@prototypes, prefecture_id: 7), method: :get, class: :color%>
+		</div>
+
+		<%# 宮城 %>
+		<div id="miyagi">
+			<%= link_to "宮城", prototype_path(@prototypes, prefecture_id: 5), method: :get, class: :color%>
+		</div>
+
+		<%# 福島 %>
+		<div id="fukushima">
+			<%= link_to "福島", prototype_path(@prototypes, prefecture_id: 8), method: :get, class: :color%>
+		</div>
+
 	</div>
 </div>
 
 <div id="kantou">
 	<p class="area-title">関東</p>
 	<div class="area">
-		<a href="#">
-			<div id="gunma">
-				<p>群馬</p>
-			</div>
-		</a>
-		<a href="#">
-			<div id="tochigi">
-				<p>栃木</p>
-			</div>
-		</a>
-		<a href="#">
-			<div id="ibaraki">
-				<p>茨城</p>
-			</div>
-		</a>
-		<a href="#">
-			<div id="saitama">
-				<p>埼玉</p>
-			</div>
-		</a>
-		<a href="#">
-			<div id="chiba">
-				<p>千葉</p>
-			</div>
-		</a>
-		<a href="#">
-			<div id="tokyo">
-				<p>東京</p>
-			</div>
-		</a>
-		<a href="#">
-			<div id="kanagawa">
-				<p>神奈川</p>
-			</div>
-		</a>
+	
+		<%# 群馬 %>
+		<div id="gunma">
+			<%= link_to "群馬", prototype_path(@prototypes, prefecture_id: 11), method: :get, class: :color%>
+		</div>
+
+		<%# 栃木 %>
+		<div id="tochigi">
+			<%= link_to "栃木", prototype_path(@prototypes, prefecture_id: 10), method: :get, class: :color%>
+		</div>
+
+		<%# 茨城 %>
+		<div id="ibaraki">
+			<%= link_to "茨城", prototype_path(@prototypes, prefecture_id: 9), method: :get, class: :color%>
+		</div>
+
+		<%# 埼玉 %>
+		<div id="saitama">
+			<%= link_to "埼玉", prototype_path(@prototypes, prefecture_id: 12), method: :get, class: :color%>
+		</div>
+
+		<%# 千葉 %>
+		<div id="chiba">
+			<%= link_to "千葉", prototype_path(@prototypes, prefecture_id: 13), method: :get, class: :color%>
+		</div>
+
+		<%# 東京 %>
+		<div id="tokyo">
+			<%= link_to "東京", prototype_path(@prototypes, prefecture_id: 14), method: :get, class: :color%>
+		</div>
+
+		<%# 神奈川 %>
+		<div id="kanagawa">
+			<%= link_to "神奈川", prototype_path(@prototypes, prefecture_id: 15), method: :get, class: :color%>
+		</div>
+
 	</div>
 </div>
 
 <div id="tyubu" class="clearfix">
 	<p class="area-title">中部</p>
 	<div class="area">
-		<a href="#">
-			<div id="nigata">
-				<p>新潟</p>
-			</div>
-		</a>
-		<a href="#">
-			<div id="toyama">
-				<p>富山</p>
-			</div>
-		</a>
-		<a href="#">
-			<div id="ishikawa">
-				<p>石川</p>
-			</div>
-		</a>
-		<a href="#">
-			<div id="fukui">
-				<p>福井</p>
-			</div>
-		</a>
-		<a href="#">
-			<div id="nagano">
-				<p>長野</p>
-			</div>
-		</a>
-		<a href="#">
-			<div id="gifu">
-				<p>岐阜</p>
-			</div>
-		</a>
-		<a href="#">
-			<div id="yamanashi">
-				<p>山梨</p>
-			</div>
-		</a>
-		<a href="#">
-			<div id="aichi">
-				<p>愛知</p>
-			</div>
-		</a>
-		<a href="#">
-			<div id="shizuoka">
-				<p>静岡</p>
-			</div>
-		</a>
+
+		<%# 新潟 %>
+		<div id="nigata">
+			<%= link_to "新潟", prototype_path(@prototypes, prefecture_id: 16), method: :get, class: :color%>
+		</div>
+
+		<%# 富山 %>
+		<div id="toyama">
+			<%= link_to "富山", prototype_path(@prototypes, prefecture_id: 17), method: :get, class: :color%>
+		</div>
+
+		<%# 石川 %>
+		<div id="ishikawa">
+			<%= link_to "石川", prototype_path(@prototypes, prefecture_id: 18), method: :get, class: :color%>
+		</div>
+
+		<%# 福井 %>
+		<div id="fukui">
+			<%= link_to "福井", prototype_path(@prototypes, prefecture_id: 19), method: :get, class: :color%>
+		</div>
+
+		<%# 長野 %>
+		<div id="nagano">
+			<%= link_to "長野", prototype_path(@prototypes, prefecture_id: 21), method: :get, class: :color%>
+		</div>
+
+		<%# 岐阜 %>
+		<div id="gifu">
+			<%= link_to "岐阜", prototype_path(@prototypes, prefecture_id: 22), method: :get, class: :color%>
+		</div>
+
+		<%# 山梨 %>
+		<div id="yamanashi">
+			<%= link_to "山梨", prototype_path(@prototypes, prefecture_id: 20), method: :get, class: :color%>
+		</div>
+
+		<%# 愛知 %>
+		<div id="aichi">
+			<%= link_to "愛知", prototype_path(@prototypes, prefecture_id: 24), method: :get, class: :color%>
+		</div>
+
+		<%# 静岡 %>
+		<div id="shizuoka">
+			<%= link_to "静岡", prototype_path(@prototypes, prefecture_id: 23), method: :get, class: :color%>
+		</div>
+
 	</div>
 </div>
 
 <div id="kinki" class="clearfix">
 	<p class="area-title">近畿</p>
 	<div class="area">
-		<a href="#">
-			<div id="kyoto">
-				<p>京都</p>
-			</div>
-		</a>
-		<a href="#">
-			<div id="shiga">
-				<p>滋賀</p>
-			</div>
-		</a>
-		<a href="#">
-			<div id="osaka">
-				<p>大阪</p>
-			</div>
-		</a>
-		<a href="#">
-			<div id="nara">
-				<p>奈良</p>
-			</div>
-		</a>
-		<a href="#">
-			<div id="mie">
-				<p>三重</p>
-			</div>
-		</a>
-		<a href="#">
-			<div id="wakayama">
-				<p>和歌山</p>
-			</div>
-		</a>
-		<a href="#">
-			<div id="hyougo">
-				<p>兵庫</p>
-			</div>
-		</a>
+
+		<%# 京都 %>
+		<div id="kyoto">
+			<%= link_to "京都", prototype_path(@prototypes, prefecture_id: 27), method: :get, class: :color%>
+		</div>
+
+		<%# 滋賀 %>
+		<div id="shiga">
+			<%= link_to "滋賀", prototype_path(@prototypes, prefecture_id: 26), method: :get, class: :color%>
+		</div>
+
+		<%# 大阪 %>
+		<div id="osaka">
+			<%= link_to "大阪", prototype_path(@prototypes, prefecture_id: 28), method: :get, class: :color%>
+		</div>
+
+		<%# 奈良 %>
+		<div id="nara">
+			<%= link_to "奈良", prototype_path(@prototypes, prefecture_id: 30), method: :get, class: :color%>
+		</div>
+
+		<%# 三重 %>
+		<div id="mie">
+			<%= link_to "三重", prototype_path(@prototypes, prefecture_id: 25), method: :get, class: :color%>
+		</div>
+
+		<%# 和歌山 %>
+		<div id="wakayama">
+			<%= link_to "和歌山", prototype_path(@prototypes, prefecture_id: 31), method: :get, class: :color%>
+		</div>
+
+		<%# 兵庫 %>
+		<div id="hyougo">
+			<%= link_to "兵庫", prototype_path(@prototypes, prefecture_id: 29), method: :get, class: :color%>
+		</div>
+
 	</div>
 </div>
 
 <div id="tyugoku" class="clearfix">
 	<p class="area-title">中国</p>
 	<div class="area">
-		<a href="#">
-			<div id="tottori">
-				<p>鳥取</p>
-			</div>
-		</a>
-		<a href="#">
-			<div id="okayama">
-				<p>岡山</p>
-			</div>
-		</a>
-		<a href="#">
-			<div id="shimane">
-				<p>島根</p>
-			</div>
-		</a>
-		<a href="#">
-			<div id="hiroshima">
-				<p>広島</p>
-			</div>
-		</a>
-		<a href="#">
-			<div id="yamaguchi">
-				<p>山口</p>
-			</div>
-		</a>
+
+		<%# 鳥取 %>
+		<div id="tottori">
+			<%= link_to "鳥取", prototype_path(@prototypes, prefecture_id: 32), method: :get, class: :color%>
+		</div>
+
+		<%# 岡山 %>
+		<div id="okayama">
+			<%= link_to "岡山", prototype_path(@prototypes, prefecture_id: 34), method: :get, class: :color%>
+		</div>
+
+		<%# 島根 %>
+		<div id="shimane">
+			<%= link_to "島根", prototype_path(@prototypes, prefecture_id: 33), method: :get, class: :color%>
+		</div>
+
+		<%# 広島 %>
+		<div id="hiroshima">
+			<%= link_to "広島", prototype_path(@prototypes, prefecture_id: 35), method: :get, class: :color%>
+		</div>
+
+		<%# 山口 %>
+		<div id="yamaguchi">
+			<%= link_to "山口", prototype_path(@prototypes, prefecture_id: 36), method: :get, class: :color%>
+		</div>
+
 	</div>
 </div>
 
 <div id="shikoku" class="clearfix">
 	<p class="area-title">四国</p>
 	<div class="area">
-		<a href="#">
-			<div id="kagawa">
-				<p>香川</p>
-			</div>
-		</a>
-		<a href="#">
-			<div id="ehime">
-				<p>愛媛</p>
-			</div>
-		</a>
-		<a href="#">
-			<div id="tokushima">
-				<p>徳島</p>
-			</div>
-		</a>
-		<a href="#">
-			<div id="kouchi">
-				<p>高知</p>
-			</div>
-		</a>
+
+		<%# 香川 %>
+		<div id="kagawa">
+			<%= link_to "香川", prototype_path(@prototypes, prefecture_id: 38), method: :get, class: :color%>
+		</div>
+
+		<%# 愛媛 %>
+		<div id="ehime">
+			<%= link_to "愛媛", prototype_path(@prototypes, prefecture_id: 39), method: :get, class: :color%>
+		</div>
+
+		<%# 徳島 %>
+		<div id="tokushima">
+			<%= link_to "徳島", prototype_path(@prototypes, prefecture_id: 37), method: :get, class: :color%>
+		</div>
+
+		<%# 高知 %>
+		<div id="kouchi">
+			<%= link_to "高知", prototype_path(@prototypes, prefecture_id: 40), method: :get, class: :color%>
+		</div>
+
 	</div>
 </div>
 
 <div id="kyusyu" class="clearfix">
 	<p class="area-title">九州・沖縄</p>
 	<div class="area">
-		<a href="#">
-			<div id="fukuoka">
-				<p>福岡</p>
-			</div>
-		</a>
-		<a href="#">
-			<div id="saga">
-				<p>佐賀</p>
-			</div>
-		</a>
-		<a href="#">
-			<div id="nagasaki">
-				<p>長崎</p>
-			</div>
-		</a>
-		<a href="#">
-			<div id="oita">
-				<p>大分</p>
-			</div>
-		</a>
-		<a href="#">
-			<div id="kumamoto">
-				<p>熊本</p>
-			</div>
-		</a>
-		<a href="#">
-			<div id="miyazaki">
-				<p>宮崎</p>
-			</div>
-		</a>
-		<a href="#">
-			<div id="kagoshima">
-				<p>鹿児島</p>
-			</div>
-		</a>
-		<a href="#">
-			<div id="okinawa">
-				<p>沖縄</p>
-			</div>
-		</a>
+
+		<%# 福岡 %>
+		<div id="fukuoka">
+			<%= link_to "福岡", prototype_path(@prototypes, prefecture_id: 41), method: :get, class: :color%>
+		</div>
+
+		<%# 佐賀 %>
+		<div id="saga">
+			<%= link_to "佐賀", prototype_path(@prototypes, prefecture_id: 42), method: :get, class: :color%>
+		</div>
+
+		<%# 長崎 %>
+		<div id="nagasaki">
+			<%= link_to "長崎", prototype_path(@prototypes, prefecture_id: 43), method: :get, class: :color%>
+		</div>
+
+		<%# 大分 %>
+		<div id="oita">
+			<%= link_to "大分", prototype_path(@prototypes, prefecture_id: 45), method: :get, class: :color%>
+		</div>
+
+		<%# 熊本 %>
+		<div id="kumamoto">
+			<%= link_to "熊本", prototype_path(@prototypes, prefecture_id:44), method: :get, class: :color%>
+		</div>
+
+		<%# 宮崎 %>
+		<div id="miyazaki">
+			<%= link_to "宮崎", prototype_path(@prototypes, prefecture_id: 46), method: :get, class: :color%>
+		</div>
+
+		<%# 鹿児島 %>
+		<div id="kagoshima">
+			<%= link_to "鹿児島", prototype_path(@prototypes, prefecture_id: 47), method: :get, class: :color%>
+		</div>
+
+		<%# 沖縄 %>
+		<div id="okinawa">
+			<%= link_to "沖縄", prototype_path(@prototypes, prefecture_id: 48), method: :get, class: :color%>
+		</div>
+
 	</div>
 </div>
 
@@ -304,7 +311,7 @@
 	<h3 class="second-title">投稿一覧</h3>
 	<div class="item-contents">
 		<% @prototypes.each do |prototype|%>
-			<%= image_tag prototype.image, class: "prototype-img" if prototype.image.attached?%>
+			<%= image_tag prototype.image, class: "item-img" if prototype.image.attached?%>
 		<% end %>
 	</div>
 </div>
