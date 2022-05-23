@@ -12,11 +12,24 @@
   <h2 class="title">おも<br>いで</h2>
   <div class="user">
     <%# ログアウト中は新規登録にする %>
-		<%= link_to(new_prototype_path, class: "post-button") do%>
-    	<p>投稿する　　　</p>
+		<% if user_signed_in? %>
+			<%= link_to(new_prototype_path, class: "post-button") do%>
+				<p>投稿する　　　</p>
+			<% end %>
+			<%# ログアウト中はログインにする %>
+			<%= link_to(destroy_user_session_path, method: :delete, class: "login-botton") do%>
+			<p>ログアウト　　　</p>
+			<% end %>
+		<% else %>
+			<%= link_to(new_user_registration_path, class: "post-button") do%>
+				<p>新規登録　　　</p>
+			<% end %>
+			<%# ログアウト中はログインにする %>
+			<%= link_to(new_user_session_path, class: "login-botton") do%>
+				<p>ログイン　　　</p>
+			<% end %>
 		<% end %>
-    <%# ログアウト中はログインにする %>
-    <p>ログアウト　　　</p>
+
   </div>
 </header>
 <div id="japan-map" class="clearfix">
@@ -190,7 +203,7 @@
 		<div id="wakayama">
 			<%= link_to "和歌山", prototype_path(@prototypes, prefecture_id: 31), method: :get, class: :color%>
 		</div>
-
+ 
 		<%# 兵庫 %>
 		<div id="hyougo">
 			<%= link_to "兵庫", prototype_path(@prototypes, prefecture_id: 29), method: :get, class: :color%>
