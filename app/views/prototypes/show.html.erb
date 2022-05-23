@@ -3,7 +3,9 @@
 	<%= link_to "戻る", root_path, class: :return%>
 	<div class="item-contents">
 		<% @prototypes.each do |prototype|%>
+		<div class="photo-img">
 			<%= image_tag prototype.image, class: "item-img" if prototype.image.attached?%>
+		</div>
 		<% end %>
 	</div>
 </div>
