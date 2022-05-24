@@ -32,6 +32,7 @@ https://omoide37272.herokuapp.com/
 ・投稿された画像を閲覧することは出来ます。
 
 【ログインしている状態】
+
 ・画像の投稿をすることが出来ます。
 
 ・自身が投稿した内容であれば、削除と編集を行うことが出来ます。
@@ -71,6 +72,7 @@ https://docs.google.com/spreadsheets/d/1oWrFkQ2t5CnrStiwzMJXaQqB4T3HWUTJN3L4jjfE
 [![Image from Gyazo](https://i.gyazo.com/928da2a24d6961b6e258bcc7cd37da36.png)](https://gyazo.com/928da2a24d6961b6e258bcc7cd37da36)
 
 ・例えば、日本地図の「北海道」をクリックすると、投稿の際に「北海道」と選択した写真のみを表示してくれます。
+
 ・「戻る」ボタンでトップ画面に遷移します。
 
 [![Image from Gyazo](https://i.gyazo.com/110835a69dee2e10a92ac9cdde00df05.png)](https://gyazo.com/110835a69dee2e10a92ac9cdde00df05)
