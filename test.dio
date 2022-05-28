@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="SfG7K7Rxj6o-jMoaFrJJ" name="ER図">
-        <mxGraphModel dx="881" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="636" dy="358" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -48,12 +48,12 @@
         </mxGraphModel>
     </diagram>
     <diagram id="aA2Uncg0TbQbx1IRr3ln" name="画面遷移図">
-        <mxGraphModel dx="881" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="636" dy="358" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="U2sj8nQtk7KFWIcbjcra-0"/>
                 <mxCell id="U2sj8nQtk7KFWIcbjcra-1" parent="U2sj8nQtk7KFWIcbjcra-0"/>
                 <mxCell id="344tZfbyBW5fVHYdLOcZ-0" value="一覧ページ" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="U2sj8nQtk7KFWIcbjcra-1" vertex="1">
-                    <mxGeometry x="120" y="120" width="120" height="30" as="geometry"/>
+                    <mxGeometry x="79" y="120" width="120" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="344tZfbyBW5fVHYdLOcZ-1" value="" style="endArrow=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="U2sj8nQtk7KFWIcbjcra-1" source="344tZfbyBW5fVHYdLOcZ-0" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -135,6 +135,30 @@
                 </mxCell>
                 <mxCell id="344tZfbyBW5fVHYdLOcZ-16" value="削除完了ページ" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="U2sj8nQtk7KFWIcbjcra-1" vertex="1">
                     <mxGeometry x="468" y="371" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="y_dGPJ409Wi-OcROCXAQ-0" value="" style="endArrow=none;html=1;" edge="1" parent="U2sj8nQtk7KFWIcbjcra-1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="140" y="150" as="sourcePoint"/>
+                        <mxPoint x="180" y="195" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="140" y="195"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="y_dGPJ409Wi-OcROCXAQ-1" value="編集ページ" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="U2sj8nQtk7KFWIcbjcra-1">
+                    <mxGeometry x="180" y="180" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="y_dGPJ409Wi-OcROCXAQ-2" value="" style="endArrow=none;html=1;" edge="1" parent="U2sj8nQtk7KFWIcbjcra-1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="140" y="186" as="sourcePoint"/>
+                        <mxPoint x="180" y="231" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="140" y="231"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="y_dGPJ409Wi-OcROCXAQ-3" value="削除完了ページ" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="U2sj8nQtk7KFWIcbjcra-1">
+                    <mxGeometry x="178" y="216" width="150" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

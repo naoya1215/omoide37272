@@ -44,7 +44,7 @@ https://omoide37272.herokuapp.com/
 
 流行する少し前から旅行の魅力に気づき、家族で日本全国を訪れたい思ってました。
 
-コロナ禍で第一子が産まれ、県内に出れていない子供と一緒に旅行をし思い出を残したいという気持ちからこのアプリケーションを作成してみたいと思いました。
+コロナ禍で第一子が産まれ、県内に出れていない子供と一緒に旅行をし、思い出を残したいという気持ちからこのアプリケーションを作成してみたいと思いました。
 
 ## 洗い出した要件
 https://docs.google.com/spreadsheets/d/1oWrFkQ2t5CnrStiwzMJXaQqB4T3HWUTJN3L4jjfEVOk/edit#gid=982722306
@@ -69,16 +69,18 @@ https://docs.google.com/spreadsheets/d/1oWrFkQ2t5CnrStiwzMJXaQqB4T3HWUTJN3L4jjfE
 
 ・トップ画面の投稿一覧に投稿した画像が追加されます。
 
-[![Image from Gyazo](https://i.gyazo.com/928da2a24d6961b6e258bcc7cd37da36.png)](https://gyazo.com/928da2a24d6961b6e258bcc7cd37da36)
+[![Image from Gyazo](https://i.gyazo.com/d33e42cab7841eab5ec77a6165903d4f.png)](https://gyazo.com/d33e42cab7841eab5ec77a6165903d4f)
 
 ・例えば、日本地図の「北海道」をクリックすると、投稿の際に「北海道」と選択した写真のみを表示してくれます。
 
 ・「戻る」ボタンでトップ画面に遷移します。
 
-[![Image from Gyazo](https://i.gyazo.com/110835a69dee2e10a92ac9cdde00df05.png)](https://gyazo.com/110835a69dee2e10a92ac9cdde00df05)
+・画像の下に編集、削除が表示されおり、それぞれ操作を行うことが可能です。
+
+[![Image from Gyazo](https://i.gyazo.com/55d2d2886345846314c9f2bcd91461c4.png)](https://gyazo.com/55d2d2886345846314c9f2bcd91461c4)
+
 
 ## 実装予定の機能
-・投稿内容の編集、削除機能
 
 ・達成率の表示(例：27/47・・・達成率57%)
 
@@ -88,7 +90,7 @@ https://docs.google.com/spreadsheets/d/1oWrFkQ2t5CnrStiwzMJXaQqB4T3HWUTJN3L4jjfE
 [![Image from Gyazo](https://i.gyazo.com/aa1a59e66eb3b7834ce3c1bace6aaeb8.png)](https://gyazo.com/aa1a59e66eb3b7834ce3c1bace6aaeb8)
 
 ## 画面遷移図
-[![Image from Gyazo](https://i.gyazo.com/1ad453f244ebcb36f14bcd5711cb2873.png)](https://gyazo.com/1ad453f244ebcb36f14bcd5711cb2873)
+[![Image from Gyazo](https://i.gyazo.com/5ca511c69e87a422457cb627ab563473.png)](https://gyazo.com/5ca511c69e87a422457cb627ab563473)
 
 ## 開発環境
 ・Ruby/Ruby on Rails/MySQL/Github/AWS/Visual Studio Code
@@ -103,9 +105,9 @@ https://docs.google.com/spreadsheets/d/1oWrFkQ2t5CnrStiwzMJXaQqB4T3HWUTJN3L4jjfE
 % yarn install
 
 ## 工夫したポイント
-・感覚的に分かるように実装しました。
+・感覚的に使いこなせるように機能を付けすぎないよう実装しました。
 
-・日本地図なども用いてデザイン的にも地味にならないように心掛けました。
+・UIを考慮し日本地図を使用しました。
 
 ・都道府県をクリックすると該当する写真のみ表示できるようにしました。
 
