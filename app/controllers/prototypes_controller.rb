@@ -21,6 +21,11 @@ class PrototypesController < ApplicationController
     @prototypes = Prototype.where(prefecture_id: params[:prefecture_id])
   end
 
+  def destroy
+    prototype = Prototype.find(params[:id])
+    prototype.destroy
+  end
+
   private
 
   def prototype_params

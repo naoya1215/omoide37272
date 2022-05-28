@@ -58,11 +58,11 @@ header{
   padding: 25px 0 0 800px;
 }
 
+// show.html.erb
 .post-list{
 	background-color: rgb(240, 237, 237);
 }
 
-// show.html.erb
 .second-title{
 	color: rgb(83, 81, 81);
 	margin: 40px 0 0 50px;
@@ -86,11 +86,17 @@ header{
   flex-wrap: wrap;
 }
 
+.photo-img a{
+	display: block;
+	text-align: right;
+}
+
 .item-img {
   width: 33vh;
   height: 33vh;
-  margin: 10px 0 20px 10px;
+  margin: 30px 0 30px 30px;
 }
+
 // show.html.erb
 
 // header
