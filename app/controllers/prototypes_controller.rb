@@ -26,6 +26,15 @@ class PrototypesController < ApplicationController
     prototype.destroy
   end
 
+  def edit
+    @prototype = Prototype.find(params[:id])
+  end
+
+  def update
+    prototype = Prototype.find(params[:id])
+    prototype.update(prototype_params)
+  end
+
   private
 
   def prototype_params
