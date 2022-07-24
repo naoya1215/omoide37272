@@ -21,5 +21,4 @@ class Prefecture < ActiveHash::Base
   # include ActiveHash::Associationsと記述してmoduleを取り込みます。
   include ActiveHash::Associations
   has_many :prototypes
-
 end
