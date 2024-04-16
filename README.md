@@ -6,6 +6,7 @@
 
 ## URL
 https://omoide37272.herokuapp.com/
+※現在、停止中
 
 ## テスト用アカウント
 ・Basic認証パスワード: admin
