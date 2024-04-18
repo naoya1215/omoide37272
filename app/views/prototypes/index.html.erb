@@ -13,6 +13,7 @@
   <div class="user">
     <%# ログアウト中は新規登録にする %>
 		<% if user_signed_in? %>
+			<%= "ログイン中：#{current_user.email}" %> <!-- ログインユーザーの名前を表示 -->
 			<%= link_to(new_prototype_path, class: "post-button") do%>
 				<p>投稿する　　　</p>
 			<% end %>
@@ -29,8 +30,8 @@
 				<p>ログイン　　　</p>
 			<% end %>
 		<% end %>
-
   </div>
+
 </header>
 <div id="japan-map" class="clearfix">
 
