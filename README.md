@@ -7,14 +7,18 @@
 ## URL
 https://omoide37272.herokuapp.com/
 
-## テスト用アカウント
-・Basic認証パスワード: admin
+## Basic認証PW/ID
+・Basic認証PW: admin
 
 ・Basic認証ID: 2222
 
+## テストアカウント1
 ・メールアドレス：hoge@hoge
+・パスワード：083636Yn
 
-・パスワード：000000
+## テストアカウント2
+・メールアドレス：hoge2@hoge
+・パスワード：083636Yn
 
 ## 利用方法
 【トップ画面】
@@ -85,6 +89,17 @@ https://docs.google.com/spreadsheets/d/1oWrFkQ2t5CnrStiwzMJXaQqB4T3HWUTJN3L4jjfE
 ・達成率の表示(例：27/47・・・達成率57%)
 
 ・写真に対するコメント機能の実装
+
+## アプリケーションの課題・解決策
+
+・どのユーザーがログインしているのか分からない
+→投稿するの左に「ログインユーザ」の名前を表示する
+
+・投稿ユーザー以外の人でも編集・削除を行えるようになっている
+→投稿ユーザー以外が編集・削除を行えないようにする
+
+・画面サイズが変わっても対応出来るようにする
+→それらが考慮されているものはどうしているかを調べる
 
 ## データベース設計
 [![Image from Gyazo](https://i.gyazo.com/aa1a59e66eb3b7834ce3c1bace6aaeb8.png)](https://gyazo.com/aa1a59e66eb3b7834ce3c1bace6aaeb8)
