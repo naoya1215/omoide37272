@@ -6,6 +6,7 @@
 
 ## URL
 https://omoide37272.herokuapp.com/
+※現在、停止中
 
 ## Basic認証PW/ID
 ・Basic認証PW: admin
